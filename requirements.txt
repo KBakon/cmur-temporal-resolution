@@ -1,0 +1,6 @@
+# Versions used for the byte-identical analysis and asset clean-room tests on
+# 1 October 2026 with Python 3.13.15.
+# The exact September interpreter/package versions were not archived.
+numpy==2.2.6
+scipy==1.16.0
+reportlab==4.4.9

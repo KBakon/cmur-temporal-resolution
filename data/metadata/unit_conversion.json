@@ -1,0 +1,21 @@
+{
+  "working_mass_unit": "thousand tonnes",
+  "env_wastrt": {
+    "source_unit": "T",
+    "factor": 0.001,
+    "operation": "divide tonnes by 1000"
+  },
+  "env_ac_mfa": {
+    "source_unit": "THS_T",
+    "factor": 1
+  },
+  "env_ac_sd": {
+    "source_unit": "THS_T",
+    "factor": 1
+  },
+  "env_ac_cur": {
+    "source_unit": "PC",
+    "factor": 1,
+    "precision": "one decimal percentage point"
+  }
+}

@@ -1,0 +1,170 @@
+dataset,code,label,codelist_version
+env_ac_cur,b,break in time series,1.39
+env_ac_cur,bd,"break in time series, definition differs (see metadata)",1.39
+env_ac_cur,bde,"break in time series, definition differs (see metadata), estimated",1.39
+env_ac_cur,bdep,"break in time series, definition differs (see metadata), estimated, provisional",1.39
+env_ac_cur,bdf,"break in time series, definition differs (see metadata), forecast",1.39
+env_ac_cur,bdn,"break in time series, definition differs (see metadata), not significant",1.39
+env_ac_cur,bdp,"break in time series, definition differs (see metadata), provisional",1.39
+env_ac_cur,bdu,"break in time series, definition differs (see metadata), low reliability",1.39
+env_ac_cur,be,"break in time series, estimated",1.39
+env_ac_cur,bep,"break in time series, estimated, provisional",1.39
+env_ac_cur,bf,"break in time series, forecast",1.39
+env_ac_cur,bn,"break in time series, not significant",1.39
+env_ac_cur,bp,"break in time series, provisional",1.39
+env_ac_cur,bpu,"break in time series, provisional, low reliability",1.39
+env_ac_cur,bu,"break in time series, low reliability",1.39
+env_ac_cur,d,definition differs (see metadata),1.39
+env_ac_cur,de,"definition differs (see metadata), estimated",1.39
+env_ac_cur,dep,"definition differs (see metadata), estimated, provisional",1.39
+env_ac_cur,df,"definition differs (see metadata), forecast",1.39
+env_ac_cur,dn,"definition differs (see metadata), not significant",1.39
+env_ac_cur,dp,"definition differs (see metadata), provisional",1.39
+env_ac_cur,dpu,"definition differs (see metadata), provisional, low reliability",1.39
+env_ac_cur,du,"definition differs (see metadata), low reliability",1.39
+env_ac_cur,e,estimated,1.39
+env_ac_cur,ep,"estimated, provisional",1.39
+env_ac_cur,f,forecast,1.39
+env_ac_cur,n,not significant,1.39
+env_ac_cur,p,provisional,1.39
+env_ac_cur,pu,"provisional, low reliability",1.39
+env_ac_cur,u,low reliability,1.39
+env_ac_cur,bdip,"break in time series, definition differs (see metadata), value imputed by Eurostat or other receiving agencies, provisional",1.39
+env_ac_cur,bdi,"break in time series, definition differs (see metadata), value imputed by Eurostat or other receiving agencies",1.39
+env_ac_cur,bdm,"break in time series, definition differs (see metadata), missing value; data cannot exist",1.39
+env_ac_cur,bip,"break in time series, value imputed by Eurostat or other receiving agencies, provisional",1.39
+env_ac_cur,bi,"break in time series, value imputed by Eurostat or other receiving agencies",1.39
+env_ac_cur,bm,"break in time series, missing value; data cannot exist",1.39
+env_ac_cur,dip,"definition differs (see metadata), value imputed by Eurostat or other receiving agencies, provisional",1.39
+env_ac_cur,di,"definition differs (see metadata), value imputed by Eurostat or other receiving agencies",1.39
+env_ac_cur,dm,"definition differs (see metadata), missing value; data cannot exist",1.39
+env_ac_cur,ip,"value imputed by Eurostat or other receiving agencies, provisional",1.39
+env_ac_cur,i,value imputed by Eurostat or other receiving agencies,1.39
+env_ac_cur,m,missing value; data cannot exist,1.39
+env_wastrt,b,break in time series,1.38
+env_wastrt,bd,"break in time series, definition differs (see metadata)",1.38
+env_wastrt,bde,"break in time series, definition differs (see metadata), estimated",1.38
+env_wastrt,bdep,"break in time series, definition differs (see metadata), estimated, provisional",1.38
+env_wastrt,bdf,"break in time series, definition differs (see metadata), forecast",1.38
+env_wastrt,bdn,"break in time series, definition differs (see metadata), not significant",1.38
+env_wastrt,bdp,"break in time series, definition differs (see metadata), provisional",1.38
+env_wastrt,bdu,"break in time series, definition differs (see metadata), low reliability",1.38
+env_wastrt,be,"break in time series, estimated",1.38
+env_wastrt,bep,"break in time series, estimated, provisional",1.38
+env_wastrt,bf,"break in time series, forecast",1.38
+env_wastrt,bn,"break in time series, not significant",1.38
+env_wastrt,bp,"break in time series, provisional",1.38
+env_wastrt,bpu,"break in time series, provisional, low reliability",1.38
+env_wastrt,bu,"break in time series, low reliability",1.38
+env_wastrt,bz,"break in time series, not applicable",1.38
+env_wastrt,d,definition differs (see metadata),1.38
+env_wastrt,de,"definition differs (see metadata), estimated",1.38
+env_wastrt,dep,"definition differs (see metadata), estimated, provisional",1.38
+env_wastrt,df,"definition differs (see metadata), forecast",1.38
+env_wastrt,dn,"definition differs (see metadata), not significant",1.38
+env_wastrt,dp,"definition differs (see metadata), provisional",1.38
+env_wastrt,dpu,"definition differs (see metadata), provisional, low reliability",1.38
+env_wastrt,du,"definition differs (see metadata), low reliability",1.38
+env_wastrt,e,estimated,1.38
+env_wastrt,ep,"estimated, provisional",1.38
+env_wastrt,f,forecast,1.38
+env_wastrt,n,not significant,1.38
+env_wastrt,p,provisional,1.38
+env_wastrt,pu,"provisional, low reliability",1.38
+env_wastrt,u,low reliability,1.38
+env_wastrt,bdip,"break in time series, definition differs (see metadata), value imputed by Eurostat or other receiving agencies, provisional",1.38
+env_wastrt,bdi,"break in time series, definition differs (see metadata), value imputed by Eurostat or other receiving agencies",1.38
+env_wastrt,bdm,"break in time series, definition differs (see metadata), missing value; data cannot exist",1.38
+env_wastrt,bip,"break in time series, value imputed by Eurostat or other receiving agencies, provisional",1.38
+env_wastrt,bi,"break in time series, value imputed by Eurostat or other receiving agencies",1.38
+env_wastrt,bm,"break in time series, missing value; data cannot exist",1.38
+env_wastrt,dip,"definition differs (see metadata), value imputed by Eurostat or other receiving agencies, provisional",1.38
+env_wastrt,di,"definition differs (see metadata), value imputed by Eurostat or other receiving agencies",1.38
+env_wastrt,dm,"definition differs (see metadata), missing value; data cannot exist",1.38
+env_wastrt,ip,"value imputed by Eurostat or other receiving agencies, provisional",1.38
+env_wastrt,i,value imputed by Eurostat or other receiving agencies,1.38
+env_wastrt,m,missing value; data cannot exist,1.38
+env_ac_mfa,b,break in time series,1.39
+env_ac_mfa,bd,"break in time series, definition differs (see metadata)",1.39
+env_ac_mfa,bde,"break in time series, definition differs (see metadata), estimated",1.39
+env_ac_mfa,bdep,"break in time series, definition differs (see metadata), estimated, provisional",1.39
+env_ac_mfa,bdf,"break in time series, definition differs (see metadata), forecast",1.39
+env_ac_mfa,bdn,"break in time series, definition differs (see metadata), not significant",1.39
+env_ac_mfa,bdp,"break in time series, definition differs (see metadata), provisional",1.39
+env_ac_mfa,bdu,"break in time series, definition differs (see metadata), low reliability",1.39
+env_ac_mfa,be,"break in time series, estimated",1.39
+env_ac_mfa,bep,"break in time series, estimated, provisional",1.39
+env_ac_mfa,bf,"break in time series, forecast",1.39
+env_ac_mfa,bn,"break in time series, not significant",1.39
+env_ac_mfa,bp,"break in time series, provisional",1.39
+env_ac_mfa,bpu,"break in time series, provisional, low reliability",1.39
+env_ac_mfa,bu,"break in time series, low reliability",1.39
+env_ac_mfa,d,definition differs (see metadata),1.39
+env_ac_mfa,de,"definition differs (see metadata), estimated",1.39
+env_ac_mfa,dep,"definition differs (see metadata), estimated, provisional",1.39
+env_ac_mfa,df,"definition differs (see metadata), forecast",1.39
+env_ac_mfa,dn,"definition differs (see metadata), not significant",1.39
+env_ac_mfa,dp,"definition differs (see metadata), provisional",1.39
+env_ac_mfa,dpu,"definition differs (see metadata), provisional, low reliability",1.39
+env_ac_mfa,du,"definition differs (see metadata), low reliability",1.39
+env_ac_mfa,e,estimated,1.39
+env_ac_mfa,ep,"estimated, provisional",1.39
+env_ac_mfa,f,forecast,1.39
+env_ac_mfa,n,not significant,1.39
+env_ac_mfa,p,provisional,1.39
+env_ac_mfa,pu,"provisional, low reliability",1.39
+env_ac_mfa,u,low reliability,1.39
+env_ac_mfa,bdip,"break in time series, definition differs (see metadata), value imputed by Eurostat or other receiving agencies, provisional",1.39
+env_ac_mfa,bdi,"break in time series, definition differs (see metadata), value imputed by Eurostat or other receiving agencies",1.39
+env_ac_mfa,bdm,"break in time series, definition differs (see metadata), missing value; data cannot exist",1.39
+env_ac_mfa,bip,"break in time series, value imputed by Eurostat or other receiving agencies, provisional",1.39
+env_ac_mfa,bi,"break in time series, value imputed by Eurostat or other receiving agencies",1.39
+env_ac_mfa,bm,"break in time series, missing value; data cannot exist",1.39
+env_ac_mfa,dip,"definition differs (see metadata), value imputed by Eurostat or other receiving agencies, provisional",1.39
+env_ac_mfa,di,"definition differs (see metadata), value imputed by Eurostat or other receiving agencies",1.39
+env_ac_mfa,dm,"definition differs (see metadata), missing value; data cannot exist",1.39
+env_ac_mfa,ip,"value imputed by Eurostat or other receiving agencies, provisional",1.39
+env_ac_mfa,i,value imputed by Eurostat or other receiving agencies,1.39
+env_ac_mfa,m,missing value; data cannot exist,1.39
+env_ac_sd,b,break in time series,1.39
+env_ac_sd,bd,"break in time series, definition differs (see metadata)",1.39
+env_ac_sd,bde,"break in time series, definition differs (see metadata), estimated",1.39
+env_ac_sd,bdep,"break in time series, definition differs (see metadata), estimated, provisional",1.39
+env_ac_sd,bdf,"break in time series, definition differs (see metadata), forecast",1.39
+env_ac_sd,bdn,"break in time series, definition differs (see metadata), not significant",1.39
+env_ac_sd,bdp,"break in time series, definition differs (see metadata), provisional",1.39
+env_ac_sd,bdu,"break in time series, definition differs (see metadata), low reliability",1.39
+env_ac_sd,be,"break in time series, estimated",1.39
+env_ac_sd,bep,"break in time series, estimated, provisional",1.39
+env_ac_sd,bf,"break in time series, forecast",1.39
+env_ac_sd,bn,"break in time series, not significant",1.39
+env_ac_sd,bp,"break in time series, provisional",1.39
+env_ac_sd,bpu,"break in time series, provisional, low reliability",1.39
+env_ac_sd,bu,"break in time series, low reliability",1.39
+env_ac_sd,d,definition differs (see metadata),1.39
+env_ac_sd,de,"definition differs (see metadata), estimated",1.39
+env_ac_sd,dep,"definition differs (see metadata), estimated, provisional",1.39
+env_ac_sd,df,"definition differs (see metadata), forecast",1.39
+env_ac_sd,dn,"definition differs (see metadata), not significant",1.39
+env_ac_sd,dp,"definition differs (see metadata), provisional",1.39
+env_ac_sd,dpu,"definition differs (see metadata), provisional, low reliability",1.39
+env_ac_sd,du,"definition differs (see metadata), low reliability",1.39
+env_ac_sd,e,estimated,1.39
+env_ac_sd,ep,"estimated, provisional",1.39
+env_ac_sd,f,forecast,1.39
+env_ac_sd,n,not significant,1.39
+env_ac_sd,p,provisional,1.39
+env_ac_sd,pu,"provisional, low reliability",1.39
+env_ac_sd,u,low reliability,1.39
+env_ac_sd,bdip,"break in time series, definition differs (see metadata), value imputed by Eurostat or other receiving agencies, provisional",1.39
+env_ac_sd,bdi,"break in time series, definition differs (see metadata), value imputed by Eurostat or other receiving agencies",1.39
+env_ac_sd,bdm,"break in time series, definition differs (see metadata), missing value; data cannot exist",1.39
+env_ac_sd,bip,"break in time series, value imputed by Eurostat or other receiving agencies, provisional",1.39
+env_ac_sd,bi,"break in time series, value imputed by Eurostat or other receiving agencies",1.39
+env_ac_sd,bm,"break in time series, missing value; data cannot exist",1.39
+env_ac_sd,dip,"definition differs (see metadata), value imputed by Eurostat or other receiving agencies, provisional",1.39
+env_ac_sd,di,"definition differs (see metadata), value imputed by Eurostat or other receiving agencies",1.39
+env_ac_sd,dm,"definition differs (see metadata), missing value; data cannot exist",1.39
+env_ac_sd,ip,"value imputed by Eurostat or other receiving agencies, provisional",1.39
+env_ac_sd,i,value imputed by Eurostat or other receiving agencies,1.39
+env_ac_sd,m,missing value; data cannot exist,1.39

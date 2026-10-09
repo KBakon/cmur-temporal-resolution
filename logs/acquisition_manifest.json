@@ -1,0 +1,156 @@
+[
+  {
+    "name": "env_ac_cur",
+    "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/env_ac_cur?lang=EN&sinceTimePeriod=2010&untilTimePeriod=2024&geo=AT&geo=BE&geo=BG&geo=HR&geo=CY&geo=CZ&geo=DK&geo=EE&geo=FI&geo=FR&geo=DE&geo=EL&geo=HU&geo=IE&geo=IT&geo=LV&geo=LT&geo=LU&geo=MT&geo=NL&geo=PL&geo=PT&geo=RO&geo=SK&geo=SI&geo=ES&geo=SE&geo=EU27_2020&freq=A&unit=PC",
+    "retrieved_utc": "2026-09-26T06:55:48.852871+00:00",
+    "sha256": "1b2e9cd20a0f1f7308c876cf63acd7777f667c24a3cbb5e5fa08dfc237fcd466",
+    "bytes": 7929,
+    "path": "data/raw/env_ac_cur_1b2e9cd20a0f1f73.json",
+    "http_headers": {
+      "Content-Type": "application/json"
+    },
+    "dataset_updated": "2025-11-24T23:00:00+0100",
+    "dimension_ids": [
+      "freq",
+      "unit",
+      "geo",
+      "time"
+    ],
+    "dimension_sizes": [
+      1,
+      1,
+      28,
+      15
+    ]
+  },
+  {
+    "name": "env_ac_cur_dsd",
+    "url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/dataflow/ESTAT/env_ac_cur?references=descendants",
+    "retrieved_utc": "2026-09-26T06:55:49.753985+00:00",
+    "sha256": "917c8b5f88fb9416bc744ce91b4022dadecfc6c19939d1b0d5db9e0cadd35dc4",
+    "bytes": 3325676,
+    "path": "data/metadata/env_ac_cur_dsd_917c8b5f88fb9416.xml",
+    "http_headers": {
+      "Content-Type": "application/vnd.sdmx.structure+xml;version=2.1"
+    }
+  },
+  {
+    "name": "env_wastrt",
+    "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/env_wastrt?lang=EN&sinceTimePeriod=2010&untilTimePeriod=2024&geo=AT&geo=BE&geo=BG&geo=HR&geo=CY&geo=CZ&geo=DK&geo=EE&geo=FI&geo=FR&geo=DE&geo=EL&geo=HU&geo=IE&geo=IT&geo=LV&geo=LT&geo=LU&geo=MT&geo=NL&geo=PL&geo=PT&geo=RO&geo=SK&geo=SI&geo=ES&geo=SE&geo=EU27_2020&freq=A&unit=T&hazard=HAZ_NHAZ&wst_oper=RCV_R&waste=TOTAL",
+    "retrieved_utc": "2026-09-26T06:55:50.088234+00:00",
+    "sha256": "0c01370d7e4579ed2be3cfc60794e97a00df3cbcae2f12c459200dffe58920c3",
+    "bytes": 6495,
+    "path": "data/raw/env_wastrt_0c01370d7e4579ed.json",
+    "http_headers": {
+      "Content-Type": "application/json"
+    },
+    "dataset_updated": "2025-09-23T23:00:00+0200",
+    "dimension_ids": [
+      "freq",
+      "unit",
+      "hazard",
+      "wst_oper",
+      "waste",
+      "geo",
+      "time"
+    ],
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      28,
+      7
+    ]
+  },
+  {
+    "name": "env_wastrt_dsd",
+    "url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/dataflow/ESTAT/env_wastrt?references=descendants",
+    "retrieved_utc": "2026-09-26T06:55:50.999194+00:00",
+    "sha256": "36e5537d2deee5724bf110fa33594d767f53f922e9295e4db7f72757886618db",
+    "bytes": 3458496,
+    "path": "data/metadata/env_wastrt_dsd_36e5537d2deee572.xml",
+    "http_headers": {
+      "Content-Type": "application/vnd.sdmx.structure+xml;version=2.1"
+    }
+  },
+  {
+    "name": "env_ac_mfa",
+    "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/env_ac_mfa?lang=EN&sinceTimePeriod=2010&untilTimePeriod=2024&geo=AT&geo=BE&geo=BG&geo=HR&geo=CY&geo=CZ&geo=DK&geo=EE&geo=FI&geo=FR&geo=DE&geo=EL&geo=HU&geo=IE&geo=IT&geo=LV&geo=LT&geo=LU&geo=MT&geo=NL&geo=PL&geo=PT&geo=RO&geo=SK&geo=SI&geo=ES&geo=SE&geo=EU27_2020&freq=A&indic_env=DMC&material=TOTAL&unit=THS_T",
+    "retrieved_utc": "2026-09-26T06:55:51.307919+00:00",
+    "sha256": "5c5cb7c634f5f816cd5befb0bc326b3f53a89697085b9560f4cdc3669ea04dc3",
+    "bytes": 10919,
+    "path": "data/raw/env_ac_mfa_5c5cb7c634f5f816.json",
+    "http_headers": {
+      "Content-Type": "application/json"
+    },
+    "dataset_updated": "2026-07-02T11:00:00+0200",
+    "dimension_ids": [
+      "freq",
+      "indic_env",
+      "material",
+      "unit",
+      "geo",
+      "time"
+    ],
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      28,
+      15
+    ]
+  },
+  {
+    "name": "env_ac_mfa_dsd",
+    "url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/dataflow/ESTAT/env_ac_mfa?references=descendants",
+    "retrieved_utc": "2026-09-26T06:55:52.248299+00:00",
+    "sha256": "bd561c9f051adc1a579ddbcd1b3766fab67cdc31dd61ca58958fa516c3c877d6",
+    "bytes": 3540922,
+    "path": "data/metadata/env_ac_mfa_dsd_bd561c9f051adc1a.xml",
+    "http_headers": {
+      "Content-Type": "application/vnd.sdmx.structure+xml;version=2.1"
+    }
+  },
+  {
+    "name": "env_ac_sd",
+    "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/env_ac_sd?lang=EN&sinceTimePeriod=2010&untilTimePeriod=2024&geo=AT&geo=BE&geo=BG&geo=HR&geo=CY&geo=CZ&geo=DK&geo=EE&geo=FI&geo=FR&geo=DE&geo=EL&geo=HU&geo=IE&geo=IT&geo=LV&geo=LT&geo=LU&geo=MT&geo=NL&geo=PL&geo=PT&geo=RO&geo=SK&geo=SI&geo=ES&geo=SE&geo=EU27_2020&freq=A&indic_env=IMP_RCV_R&indic_env=EXP_RCV_R&material=TOTAL&unit=THS_T",
+    "retrieved_utc": "2026-09-26T06:55:52.561195+00:00",
+    "sha256": "bcf4104b8047a9d4d0b455273e8051df9f0b3999ec21c099957e4337d83234a4",
+    "bytes": 12847,
+    "path": "data/raw/env_ac_sd_bcf4104b8047a9d4.json",
+    "http_headers": {
+      "Content-Type": "application/json"
+    },
+    "dataset_updated": "2025-11-25T23:00:00+0100",
+    "dimension_ids": [
+      "freq",
+      "indic_env",
+      "material",
+      "unit",
+      "geo",
+      "time"
+    ],
+    "dimension_sizes": [
+      1,
+      2,
+      1,
+      1,
+      28,
+      15
+    ]
+  },
+  {
+    "name": "env_ac_sd_dsd",
+    "url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/dataflow/ESTAT/env_ac_sd?references=descendants",
+    "retrieved_utc": "2026-09-26T06:55:53.491250+00:00",
+    "sha256": "51931eb44075804f05a08ce2e5338941e60f8521201ec89061e5c3d43d1d40ea",
+    "bytes": 3515395,
+    "path": "data/metadata/env_ac_sd_dsd_51931eb44075804f.xml",
+    "http_headers": {
+      "Content-Type": "application/vnd.sdmx.structure+xml;version=2.1"
+    }
+  }
+]

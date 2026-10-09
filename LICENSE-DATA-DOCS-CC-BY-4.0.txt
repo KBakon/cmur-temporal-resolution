@@ -1,0 +1,12 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Krisztián Attila Bakon releases the author-generated derived data,
+documentation, generated tables and figures identified in LICENSES.md under
+Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+Authoritative legal code:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+This grant covers only the author's contributions. Included official Eurostat
+source snapshots retain their separate reuse conditions; see LICENSES.md and
+THIRD_PARTY_NOTICES.md.

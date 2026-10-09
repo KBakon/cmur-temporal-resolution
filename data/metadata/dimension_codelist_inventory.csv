@@ -1,0 +1,181 @@
+dataset,dimension_id,code,position,label,selection,dataset_updated
+env_ac_cur,freq,A,0,Annual,A,2025-11-24T23:00:00+0100
+env_ac_cur,unit,PC,0,Percentage,PC,2025-11-24T23:00:00+0100
+env_ac_cur,geo,EU27_2020,0,European Union - 27 countries (from 2020),all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,BE,1,Belgium,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,BG,2,Bulgaria,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,CZ,3,Czechia,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,DK,4,Denmark,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,DE,5,Germany,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,EE,6,Estonia,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,IE,7,Ireland,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,EL,8,Greece,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,ES,9,Spain,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,FR,10,France,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,HR,11,Croatia,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,IT,12,Italy,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,CY,13,Cyprus,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,LV,14,Latvia,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,LT,15,Lithuania,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,LU,16,Luxembourg,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,HU,17,Hungary,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,MT,18,Malta,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,NL,19,Netherlands,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,AT,20,Austria,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,PL,21,Poland,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,PT,22,Portugal,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,RO,23,Romania,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,SI,24,Slovenia,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,SK,25,Slovakia,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,FI,26,Finland,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,geo,SE,27,Sweden,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,time,2010,0,2010,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,time,2011,1,2011,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,time,2012,2,2012,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,time,2013,3,2013,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,time,2014,4,2014,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,time,2015,5,2015,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,time,2016,6,2016,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,time,2017,7,2017,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,time,2018,8,2018,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,time,2019,9,2019,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,time,2020,10,2020,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,time,2021,11,2021,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,time,2022,12,2022,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,time,2023,13,2023,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_ac_cur,time,2024,14,2024,all requested geographies / 2010-2024,2025-11-24T23:00:00+0100
+env_wastrt,freq,A,0,Annual,A,2025-09-23T23:00:00+0200
+env_wastrt,unit,T,0,Tonne,T,2025-09-23T23:00:00+0200
+env_wastrt,hazard,HAZ_NHAZ,0,Hazardous and non-hazardous - total,HAZ_NHAZ,2025-09-23T23:00:00+0200
+env_wastrt,wst_oper,RCV_R,0,Recovery - recycling,RCV_R,2025-09-23T23:00:00+0200
+env_wastrt,waste,TOTAL,0,Total waste,TOTAL,2025-09-23T23:00:00+0200
+env_wastrt,geo,EU27_2020,0,European Union - 27 countries (from 2020),all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,BE,1,Belgium,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,BG,2,Bulgaria,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,CZ,3,Czechia,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,DK,4,Denmark,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,DE,5,Germany,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,EE,6,Estonia,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,IE,7,Ireland,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,EL,8,Greece,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,ES,9,Spain,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,FR,10,France,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,HR,11,Croatia,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,IT,12,Italy,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,CY,13,Cyprus,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,LV,14,Latvia,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,LT,15,Lithuania,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,LU,16,Luxembourg,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,HU,17,Hungary,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,MT,18,Malta,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,NL,19,Netherlands,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,AT,20,Austria,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,PL,21,Poland,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,PT,22,Portugal,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,RO,23,Romania,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,SI,24,Slovenia,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,SK,25,Slovakia,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,FI,26,Finland,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,geo,SE,27,Sweden,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,time,2010,0,2010,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,time,2012,1,2012,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,time,2014,2,2014,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,time,2016,3,2016,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,time,2018,4,2018,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,time,2020,5,2020,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_wastrt,time,2022,6,2022,all requested geographies / 2010-2024,2025-09-23T23:00:00+0200
+env_ac_mfa,freq,A,0,Annual,A,2026-07-02T11:00:00+0200
+env_ac_mfa,indic_env,DMC,0,Domestic material consumption,DMC,2026-07-02T11:00:00+0200
+env_ac_mfa,material,TOTAL,0,Total,TOTAL,2026-07-02T11:00:00+0200
+env_ac_mfa,unit,THS_T,0,Thousand tonnes,THS_T,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,EU27_2020,0,European Union - 27 countries (from 2020),all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,BE,1,Belgium,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,BG,2,Bulgaria,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,CZ,3,Czechia,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,DK,4,Denmark,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,DE,5,Germany,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,EE,6,Estonia,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,IE,7,Ireland,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,EL,8,Greece,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,ES,9,Spain,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,FR,10,France,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,HR,11,Croatia,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,IT,12,Italy,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,CY,13,Cyprus,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,LV,14,Latvia,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,LT,15,Lithuania,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,LU,16,Luxembourg,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,HU,17,Hungary,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,MT,18,Malta,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,NL,19,Netherlands,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,AT,20,Austria,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,PL,21,Poland,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,PT,22,Portugal,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,RO,23,Romania,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,SI,24,Slovenia,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,SK,25,Slovakia,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,FI,26,Finland,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,geo,SE,27,Sweden,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,time,2010,0,2010,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,time,2011,1,2011,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,time,2012,2,2012,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,time,2013,3,2013,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,time,2014,4,2014,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,time,2015,5,2015,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,time,2016,6,2016,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,time,2017,7,2017,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,time,2018,8,2018,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,time,2019,9,2019,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,time,2020,10,2020,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,time,2021,11,2021,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,time,2022,12,2022,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,time,2023,13,2023,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_mfa,time,2024,14,2024,all requested geographies / 2010-2024,2026-07-02T11:00:00+0200
+env_ac_sd,freq,A,0,Annual,A,2025-11-25T23:00:00+0100
+env_ac_sd,indic_env,IMP_RCV_R,0,Imports of waste for recovery - recycling,"['IMP_RCV_R', 'EXP_RCV_R']",2025-11-25T23:00:00+0100
+env_ac_sd,indic_env,EXP_RCV_R,1,Exports of waste for recovery - recycling,"['IMP_RCV_R', 'EXP_RCV_R']",2025-11-25T23:00:00+0100
+env_ac_sd,material,TOTAL,0,Total,TOTAL,2025-11-25T23:00:00+0100
+env_ac_sd,unit,THS_T,0,Thousand tonnes,THS_T,2025-11-25T23:00:00+0100
+env_ac_sd,geo,EU27_2020,0,European Union - 27 countries (from 2020),all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,BE,1,Belgium,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,BG,2,Bulgaria,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,CZ,3,Czechia,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,DK,4,Denmark,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,DE,5,Germany,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,EE,6,Estonia,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,IE,7,Ireland,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,EL,8,Greece,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,ES,9,Spain,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,FR,10,France,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,HR,11,Croatia,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,IT,12,Italy,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,CY,13,Cyprus,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,LV,14,Latvia,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,LT,15,Lithuania,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,LU,16,Luxembourg,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,HU,17,Hungary,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,MT,18,Malta,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,NL,19,Netherlands,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,AT,20,Austria,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,PL,21,Poland,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,PT,22,Portugal,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,RO,23,Romania,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,SI,24,Slovenia,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,SK,25,Slovakia,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,FI,26,Finland,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,geo,SE,27,Sweden,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,time,2010,0,2010,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,time,2011,1,2011,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,time,2012,2,2012,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,time,2013,3,2013,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,time,2014,4,2014,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,time,2015,5,2015,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,time,2016,6,2016,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,time,2017,7,2017,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,time,2018,8,2018,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,time,2019,9,2019,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,time,2020,10,2020,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,time,2021,11,2021,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,time,2022,12,2022,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,time,2023,13,2023,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100
+env_ac_sd,time,2024,14,2024,all requested geographies / 2010-2024,2025-11-25T23:00:00+0100

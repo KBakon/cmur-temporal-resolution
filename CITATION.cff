@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite this repository release."
+type: software
+title: "CMUR Temporal-Resolution Reproducibility Package"
+version: 1.0.0
+abstract: "Archived statistical inputs, derived datasets, analysis code, checks, tables and figures for temporal-resolution analysis of the EU Circular Material Use Rate."
+authors:
+  - family-names: Bakon
+    given-names: Krisztián Attila
+    affiliation: University of Pannonia – Nagykanizsa University Center for Circular Economy
+    orcid: "https://orcid.org/0000-0003-1882-094X"
+keywords:
+  - Circular Material Use Rate
+  - CMUR
+  - circular economy
+  - waste statistics
+  - temporal resolution
+  - reproducibility
+  - Eurostat
