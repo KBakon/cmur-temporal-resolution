@@ -1,0 +1,13 @@
+{
+  "pass_all": true,
+  "medium_rows": 56,
+  "unresolved_rows": 1107,
+  "variant_influence_rows": 5600,
+  "exhaustive_unresolved_keys": true,
+  "unique_complete_diagnostic_keys": true,
+  "aggregate_counts_reconcile": true,
+  "coverage_independently_checked_against_anchors": true,
+  "cause_flags_and_primary_hierarchy_checked": true,
+  "original_files_checked": 360,
+  "original_files_changed": 0
+}

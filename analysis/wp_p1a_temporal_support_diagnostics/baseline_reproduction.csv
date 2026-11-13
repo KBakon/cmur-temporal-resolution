@@ -1,0 +1,9 @@
+population,period,metric,agreement,resolved_class_disagreement,unresolved,total,expected_agreement,expected_disagreement,expected_unresolved,exact_match
+Member States,2010-2022,medium_term_slope,15,0,12,27,15,0,12,True
+EU27_2020,2010-2022,medium_term_slope,1,0,0,1,1,0,0,True
+Member States,2010-2022,annual_change,10,0,314,324,10,0,314,True
+EU27_2020,2010-2022,annual_change,0,0,12,12,0,0,12,True
+Member States,2010-2022,turning,2,0,295,297,2,0,295,True
+EU27_2020,2010-2022,turning,0,0,11,11,0,0,11,True
+Member States,2010-2022,acceleration,1,0,296,297,1,0,296,True
+EU27_2020,2010-2022,acceleration,0,0,11,11,0,0,11,True

@@ -1,14 +1,26 @@
 \begin{table}[htbp]
 \centering
-\caption{Short-window Member-State classifications through 2022 under the specified cross-variant consensus rule. Counts are geography-by-window claim instances.}
+\small
+\setlength{\tabcolsep}{4pt}
+\caption{Source-aware short-window comparisons through 2022 at $\tau=0.95$, including the deterministic vote and minimum-three unanimity rule. U is the primary unscaled empirical stress scenario; B is the secondary Brownian-motivated $1/\sqrt{2}$ residual-amplitude sensitivity.}
 \label{tab:shortwindow}
-\begin{tabular}{lrrrr}
+\begin{tabular}{lllrrrr}
 \toprule
-Metric & Agreement & Resolved-class disagreement & Unresolved & Total \\
+Population & Metric & Scenario & \shortstack{Agree-\\ment} & \shortstack{Resolved-class\\disagreement} & Unresolved & Total \\
 \midrule
-Annual change & 10 & 0 & 314 & 324 \\
-Turning interpretation & 2 & 0 & 295 & 297 \\
-Acceleration & 1 & 0 & 296 & 297 \\
+Member States & Annual change & U & 10 & 0 & 314 & 324 \\
+Member States & Annual change & B & 29 & 0 & 295 & 324 \\
+Member States & Turning & U & 2 & 0 & 295 & 297 \\
+Member States & Turning & B & 13 & 0 & 284 & 297 \\
+Member States & Acceleration & U & 1 & 0 & 296 & 297 \\
+Member States & Acceleration & B & 7 & 0 & 290 & 297 \\
+\midrule
+EU27\_2020 & Annual change & U & 0 & 0 & 12 & 12 \\
+EU27\_2020 & Annual change & B & 0 & 0 & 12 & 12 \\
+EU27\_2020 & Turning & U & 0 & 0 & 11 & 11 \\
+EU27\_2020 & Turning & B & 0 & 0 & 11 & 11 \\
+EU27\_2020 & Acceleration & U & 0 & 0 & 11 & 11 \\
+EU27\_2020 & Acceleration & B & 0 & 0 & 11 & 11 \\
 \bottomrule
 \end{tabular}
 \end{table}

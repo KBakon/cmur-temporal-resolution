@@ -1,0 +1,114 @@
+\section{Data and methods}
+
+\subsection{CMUR source architecture and provenance}
+
+Eurostat defines circular material use, $U$, as recycled waste treated in domestic recovery operations corrected for international trade in waste destined for recovery. Overall material use, $M$, combines domestic material consumption (DMC) with circular use \parencite{Eurostat2018,EurostatMetadata2026}:
+\begin{align}
+U &= RCV_R - IMP_w + EXP_w, \\
+M &= DMC + U, \\
+CMUR &= 100\,\frac{U}{M}.
+\end{align}
+Here $RCV_R$ is waste treated in domestic recovery--recycling operations, excluding energy recovery and backfilling; $IMP_w$ and $EXP_w$ are imports and exports of waste destined for recycling. The public source architecture comprises released CMUR (\texttt{env\_ac\_cur}), waste-treatment statistics (\texttt{env\_wastrt}), economy-wide material-flow accounts (\texttt{env\_ac\_mfa}) and trade/Sankey inputs (\texttt{env\_ac\_sd}). An archived acquisition on 26 September 2026 captured the corresponding data, structural metadata, codelists and observation flags for all 27 EU Member States and EU27\_2020.
+
+The provenance panel contains 420 geography-year rows for 2010--2024. Waste-treatment observations are present in reporting years 2010, 2012, 2014, 2016, 2018, 2020 and 2022; the archived snapshot contains no 2024 waste observation. Of 196 numerical waste cells, 193 are unflagged and admissible as source anchors. Admissibility follows the actual source cells and flags, rather than year parity alone.
+
+Current public component vintages do not reproduce released CMUR at published precision in 180 of 196 raw-waste cells. Their different update vintages prevent same-vintage component reconstruction from this snapshot. We therefore use released CMUR at verified admissible source-anchor years, without constructing a synthetic component-level CMUR series from asynchronous current components. This is a source-version linkage limitation rather than evidence of an error in the official calculation.
+
+\subsection{Harmonized medium-term comparison}
+\label{sec:mediumterm}
+
+The medium-term comparison uses the fixed 2010--2022 window. Analysis A includes all 13 released annual CMUR observations. Analysis B1 restricts the same released indicator to admissible source-anchor years. Twenty-five Member States and EU27\_2020 contribute seven anchors; source flags reduce the count to six for one Member State and five for another. The EU aggregate is reported separately from Member-State summaries.
+
+For each geography and series we use the fixed ordinary least-squares (OLS) trend fit
+\begin{equation}
+CMUR_t=\alpha+\beta t+\varepsilon_t.
+\end{equation}
+The slope is expressed in percentage points per year. With $n$ observations and the classical residual-based OLS standard error, its two-sided 95\% Student-$t$ interval is
+\begin{equation}
+[L,H]=\widehat\beta\ \pm\ t_{0.975,n-2}\operatorname{SE}(\widehat\beta).
+\end{equation}
+The primary common two-sided 95\% rule applies identically to A and B1: direction is \textsc{positive} if $L>0$, \textsc{negative} if $H<0$, and \textsc{unresolved} otherwise.
+
+The secondary common directional 95\% rule also applies identically to both series. Define
+\begin{equation}
+t_\beta=\frac{\widehat\beta}{\operatorname{SE}(\widehat\beta)},\qquad
+p_+=F_{t_{n-2}}(t_\beta),
+\end{equation}
+where $F_{t_{n-2}}$ is the Student-$t$ cumulative distribution function. Direction is positive if $p_+\geq0.95$, negative if $p_+\leq0.05$, and unresolved otherwise. Both classification systems use the same fixed OLS fits; only their decision rules differ. The common two-sided rule is primary throughout the manuscript.
+
+Intervals and directional sign support are fitted-model quantities: $p_+$ is not a Bayesian posterior probability. Precision comparisons concern classical OLS interval widths under this model; serial-dependence adjustments such as HAC or GLS are outside the comparison. We summarize interval widths and the paired B1/A width ratio across Member States. Direction comparisons are agreement when both resolved classes match, resolved-class disagreement when they differ, and unresolved when either series lacks a resolved class. Absence of resolved directional conflict implies neither equal slopes nor equal precision.
+
+\subsection{Source-aware short-window sensitivity design}
+
+Short-window trajectories retain released CMUR at admissible anchors and represent intervening odd years only when their adjacent anchors are admissible. For geography $g$ and such a year $y$, the midpoint is
+\begin{equation}
+C^\ast_{g,y}=\frac{C_{g,y-1}+C_{g,y+1}}{2},
+\end{equation}
+where $C$ denotes released CMUR. Empirical stress/sensitivity information comes from four-year midpoint pseudo-gaps. An interior reporting-year target $t$ contributes a signed residual only if $t-2$, $t$ and $t+2$ are all admissible:
+\begin{equation}
+e_{g,t}=C_{g,t}-\frac{C_{g,t-2}+C_{g,t+2}}{2}.
+\end{equation}
+The pooled Member-State set contains 130 signed residuals and excludes EU27\_2020. These observed four-year residuals inform the sensitivity scenarios; the true two-year/odd-year source-error distribution remains unobserved.
+
+Four variants are evaluated. \texttt{pooled\_signed} samples signed residuals from the Member-State pool. \texttt{country\_signed} samples signed residuals from the same geography and requires at least four eligible residuals; it is \textsc{not applicable} for the literal geography codes CZ and EL. \texttt{pooled\_absolute\_random\_sign} samples pooled absolute residual magnitudes and multiplies each draw by an independent equiprobable sign. \texttt{deterministic\_midpoint} uses the midpoint with no stochastic residual. EU27\_2020 is analysed separately, using the Member-State pool for the pooled variants and its own residuals for the country-specific variant.
+
+Each applicable stochastic variant constructs 20,000 trajectories per geography over 2010--2022. The seed is 20260926, with separate PCG64 streams initialized by \texttt{SeedSequence([seed, geography\_index, variant\_index])}. Indices are zero-based in the fixed implementation order: geographies AT, BE, BG, HR, CY, CZ, DK, EE, FI, FR, DE, EL, HU, IE, IT, LV, LT, LU, MT, NL, PL, PT, RO, SK, SI, ES, SE, EU27\_2020, and variants in the order given above. Residual pools retain their stored order, formed by that geography order and ascending eligible target years. Years are processed chronologically. At each eligible intervening year, residuals are sampled independently with replacement for all trajectories; the absolute-residual variant then draws its independent signs. Anchor values remain fixed at their released values. A sampled residual, with the scenario amplitude specified below, is added to the midpoint and the resulting value is clipped to $[0,100]$. The deterministic variant has a single trajectory.
+
+For a trajectory or the conventional released series, annual change and acceleration for the window ending at $y$ are
+\begin{equation}
+\Delta_y=C_y-C_{y-1},\qquad
+\Delta^2_y=C_y-2C_{y-1}+C_{y-2}.
+\end{equation}
+Annual-change windows begin in 2011; turning and acceleration windows begin in 2012. For stochastic annual change and acceleration, $p_+^{\mathrm{MC}}$ and $p_-^{\mathrm{MC}}$ are the fractions of trajectories strictly above and strictly below zero. Zeros support neither sign. At threshold $\tau$, the class is positive if $p_+^{\mathrm{MC}}\geq\tau$, negative if $p_-^{\mathrm{MC}}\geq\tau$, and unresolved otherwise. The reference threshold is $\tau=0.95$.
+
+Turning at $y$ is classified from the two separately classified annual changes $\Delta_{y-1}$ and $\Delta_y$: opposite resolved signs give \textsc{turn}, identical resolved signs give \textsc{no turn}, and either unresolved sign gives \textsc{unresolved}. The mean trajectory-level strict reversal indicator, $\mathbf{1}\{\Delta_{y-1}\Delta_y<0\}$, is retained as a separate descriptive estimate, rather than used as turning-support classification. The deterministic variant and released-series comparison use strict signs, with exact zero unresolved and no epsilon or numerical tolerance. The deterministic acceleration representation is specified below.
+
+Production-style source-aware consensus omits \textsc{not applicable} variants but retains every applicable unresolved vote. Resolution requires at least three applicable variants, all giving the same resolved class; otherwise the source-aware class is unresolved. Comparison with the released-series class gives \textsc{agreement} for matching resolved classes, \textsc{resolved-class disagreement} for differing resolved classes, and \textsc{unresolved} if either side is unresolved.
+
+The fixed through-2022 Member-State grid contains $27\times12=324$ annual-change and $27\times11=297$ each of turning and acceleration claim instances. Missing required anchors or brackets leave affected claims in the grid as unresolved. No source-aware values are synthesized for 2023--2024; those endpoint comparisons remain unresolved and are outside the headline grid.
+
+\subsection{Residual-amplitude, threshold and continuous-support sensitivities}
+
+Two paired residual-amplitude scenarios are retained. The primary empirical stress/sensitivity scenario is U, with stochastic amplitude factor $s_U=1$ (\texttt{UNSCALED\_STRESS}). The secondary Brownian-motivated theoretical amplitude sensitivity is B, with $s_B=1/\sqrt{2}$ (\texttt{BROWNIAN\_SD\_1\_SQRT2}). Under a Brownian-motion/bridge model this factor corresponds to halving the outer-anchor span from four to two years. For the same residual draw $e^{(j)}_{g,y,v}$ in trajectory $j$ and variant $v$, the intervening value in scenario $S$ is
+\begin{equation}
+\widetilde C^{(j,S)}_{g,y,v}
+=\operatorname{clip}_{[0,100]}
+\left(C^\ast_{g,y}+s_S e^{(j)}_{g,y,v}\right).
+\end{equation}
+Residual identities, randomized signs and draw order are identical between U and B. Only stochastic residual amplitude changes, before midpoint addition and clipping; admissible anchors and the deterministic midpoint remain unchanged.
+
+U is not a formal probabilistic upper bound, and B is not an empirically calibrated CMUR correction; neither identifies the true two-year error distribution. The amplitude comparison uses only factors $1$ and $1/\sqrt{2}$, without a residual $\times1/2$ calibration scenario.
+
+Using these same trajectory outputs, stochastic sign and constituent-change turning classifications are evaluated at the complete fixed grid
+\begin{equation}
+\tau\in\{0.80,\ 0.85,\ 0.90,\ 0.925,\ 0.95,\ 0.975,\ 0.99\}.
+\end{equation}
+At each threshold, production-style comparisons retain the deterministic vote and minimum-three unanimity rule. A separate stochastic-only summary uses the minimum-two convention described below. In that summary, two differing resolved stochastic classes count as conflicting even if another variant is unresolved; otherwise unanimous resolved applicable stochastic votes give concordant resolution, and remaining cases are unresolved. The grid diagnoses threshold sensitivity rather than selects a preferred cutoff.
+
+Continuous support preserves the positive and negative trajectory fractions before classification. For annual change and acceleration, the preferred sign is whichever fraction is larger, with preferred-sign support
+\begin{equation}
+q_{g,y,v}=\max\left(p_+^{\mathrm{MC}},p_-^{\mathrm{MC}}\right).
+\end{equation}
+Ties are recorded explicitly. For turning, the preferred \textsc{turn}/\textsc{no turn} class is derived from the two constituent preferred annual-change signs, and its support is the minimum of their preferred-sign supports. A constituent tie remains explicit. Both constituent supports are retained, separately from the strict reversal-event estimate.
+
+For each geography, year, metric and scenario, weakest-variant support is defined only when all applicable stochastic variants share the same preferred class and coverage is complete:
+\begin{equation}
+q_{\min}=\min_{v\in\mathcal V_g}q_{g,y,v},
+\end{equation}
+where $\mathcal V_g$ contains the applicable stochastic variants. Conflicts, ties and missing coverage are reported explicitly; supports are not averaged across variants. The statistic is descriptive and conditional, without an independence-based interpretation: it is not a posterior, joint or calibrated probability. The continuous-support summaries use each scenario's concordant subset. Those subsets may differ between U and B and are not paired subsets. The deterministic midpoint supplies structural reference information without an assigned probability.
+
+\subsection{Midpoint-attribution and multi-span diagnostics}
+
+For admissible anchors $a,b$ and their midpoint $m=(a+b)/2$, the adjacent changes satisfy $m-a=b-m$, and
+\begin{equation}
+b-2m+a=0
+\end{equation}
+exactly. The deterministic midpoint-centred acceleration is therefore represented as exactly zero and classified unresolved, without epsilon. Its role is examined under three distinct voting conventions. Production-style consensus retains the midpoint and requires at least three applicable variants, all resolved to the same class. The literal midpoint-omission diagnostic removes its vote while retaining the minimum-three requirement. The separately labelled exploratory stochastic-only diagnostic omits the midpoint vote and requires at least two applicable stochastic variants, all resolved and unanimous. Thus CZ and EL may contribute two stochastic votes to the exploratory diagnostic; removing the midpoint under the literal convention leaves them below its required minimum. The latter two conventions are diagnostics, not replacements for production-style classification.
+
+An exploratory multi-span exercise compares midpoint prediction errors at genuinely observed admissible reporting-year targets. The four-year pseudo-gap uses $t-2,t,t+2$ as above; the eight-year pseudo-gap uses $t-4,t,t+4$, with residual
+\begin{equation}
+e^{(8)}_{g,t}=C_{g,t}-\frac{C_{g,t-4}+C_{g,t+4}}{2}.
+\end{equation}
+All required observations must be admissible and within 2010--2022. Pairing requires the same geography and central target $t$, with every cell in the union of both triples admissible. Targets are never imputed.
+
+We describe absolute residual distributions using eligible counts, country coverage, medians, means, root mean squared error and the median absolute deviation about the median signed residual, without a normal-consistency multiplier. Paired absolute-error orderings use released decimal precision. These nested and overlapping windows are statistically dependent and the comparison is descriptive: it identifies neither a scaling exponent nor the true two-year error distribution, does not validate Brownian scaling, and imposes no casewise monotonicity assumption.

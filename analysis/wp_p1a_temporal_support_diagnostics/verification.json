@@ -1,0 +1,30 @@
+{
+  "checks": [
+    {
+      "command": "python -B scripts/verify_wp1a.py",
+      "execution": "isolated temporary repository copy",
+      "returncode": 0,
+      "stdout": "{\n  \"panel_rows\": 420,\n  \"raw_waste_cells\": 196,\n  \"admissible_anchors\": 193,\n  \"reconstruction_cells\": 196,\n  \"pooled_pseudogap_count\": 130,\n  \"absolute_gap_pp_max\": 2.736848722328194,\n  \"absolute_gap_pp_median\": 0.28749333253830933,\n  \"gap_over_0_05_pp\": 181,\n  \"precision_inconsistent_cells\": 180,\n  \"flagged_waste_cells\": [\n    [\n      \"CZ\",\n      2018,\n      \"b\"\n    ],\n    [\n      \"EL\",\n      2020,\n      \"p\"\n    ],\n    [\n      \"EL\",\n      2022,\n      \"p\"\n    ]\n  ]\n}\nPASS 44 checks []\n",
+      "stderr": ""
+    },
+    {
+      "command": "python -B scripts/verify_wp1b_r.py",
+      "execution": "isolated temporary repository copy",
+      "returncode": 0,
+      "stdout": "PASS 30 post-analysis checks []\n",
+      "stderr": ""
+    },
+    {
+      "command": "python -B manuscript/scripts/verify_integration.py",
+      "execution": "isolated temporary repository copy",
+      "returncode": 0,
+      "stdout": "{\n  \"checks\": {\n    \"six_section_inputs\": true,\n    \"included_files_exist\": true,\n    \"figure_paths_resolve\": true,\n    \"unique_labels\": true,\n    \"all_references_defined\": true,\n    \"all_citations_defined\": true,\n    \"unique_bibliography_keys\": true,\n    \"no_internal_governance_prose\": true,\n    \"latex_build_pdf_exists\": true,\n    \"biber_succeeded\": true,\n    \"no_latex_undefined_or_duplicate\": true,\n    \"no_material_box_warnings\": true,\n    \"medium_population\": true,\n    \"medium_table_numbers\": true,\n    \"short_window_table_numbers\": true,\n    \"headline_numbers_in_prose\": true,\n    \"branch_specific_direction_rules_stated\": true\n  },\n  \"all_mechanical_pass\": true,\n  \"medium_counts\": {\n    \"AGREEMENT\": 15,\n    \"UNRESOLVED\": 12\n  },\n  \"short_counts\": {\n    \"annual_change\": {\n      \"UNRESOLVED\": 314,\n      \"AGREEMENT\": 10,\n      \"total\": 324\n    },\n    \"turning\": {\n      \"UNRESOLVED\": 295,\n      \"AGREEMENT\": 2,\n      \"total\": 297\n    },\n    \"acceleration\": {\n      \"UNRESOLVED\": 296,\n      \"AGREEMENT\": 1,\n      \"total\": 297\n    }\n  },\n  \"scientific_content_flag\": null\n}\n",
+      "stderr": ""
+    }
+  ],
+  "baseline_pass": true,
+  "all_regenerated_processed_outputs_byte_identical": true,
+  "all_original_files_unchanged_after_baseline": true,
+  "seed": 20260926,
+  "draws": 20000
+}

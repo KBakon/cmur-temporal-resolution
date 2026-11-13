@@ -1,0 +1,1145 @@
+{
+  "medium": [
+    {
+      "rule": "COMMON_DIRECTIONAL_95",
+      "population": "Member States",
+      "AGREEMENT": 15,
+      "CHANGE": 0,
+      "UNRESOLVED": 12,
+      "A_classes": {
+        "POSITIVE": 16,
+        "UNRESOLVED": 7,
+        "NEGATIVE": 4
+      },
+      "B1_classes": {
+        "POSITIVE": 11,
+        "UNRESOLVED": 12,
+        "NEGATIVE": 4
+      },
+      "A_changed": [
+        "SI"
+      ],
+      "B1_changed": [],
+      "comparison_changed": []
+    },
+    {
+      "rule": "COMMON_DIRECTIONAL_95",
+      "population": "EU27_2020",
+      "AGREEMENT": 1,
+      "CHANGE": 0,
+      "UNRESOLVED": 0,
+      "A_classes": {
+        "POSITIVE": 1
+      },
+      "B1_classes": {
+        "POSITIVE": 1
+      },
+      "A_changed": [],
+      "B1_changed": [],
+      "comparison_changed": []
+    },
+    {
+      "rule": "COMMON_TWO_SIDED_95",
+      "population": "Member States",
+      "AGREEMENT": 12,
+      "CHANGE": 0,
+      "UNRESOLVED": 15,
+      "A_classes": {
+        "POSITIVE": 15,
+        "UNRESOLVED": 8,
+        "NEGATIVE": 4
+      },
+      "B1_classes": {
+        "POSITIVE": 10,
+        "UNRESOLVED": 15,
+        "NEGATIVE": 2
+      },
+      "A_changed": [],
+      "B1_changed": [
+        "BE",
+        "FI",
+        "LU"
+      ],
+      "comparison_changed": [
+        "BE",
+        "FI",
+        "LU"
+      ]
+    },
+    {
+      "rule": "COMMON_TWO_SIDED_95",
+      "population": "EU27_2020",
+      "AGREEMENT": 1,
+      "CHANGE": 0,
+      "UNRESOLVED": 0,
+      "A_classes": {
+        "POSITIVE": 1
+      },
+      "B1_classes": {
+        "POSITIVE": 1
+      },
+      "A_changed": [],
+      "B1_changed": [],
+      "comparison_changed": []
+    }
+  ],
+  "causes": [
+    {
+      "population": "Member States",
+      "period": "2010-2022",
+      "metric": "annual_change",
+      "unresolved": 314,
+      "flags": {
+        "missing_required_coverage": 8,
+        "fewer_than_required_applicable_variants": 0,
+        "any_applicable_stochastic_unresolved": 314,
+        "estimable_stochastic_unresolved": 306,
+        "deterministic_midpoint_unresolved": 16,
+        "estimable_midpoint_unresolved": 8,
+        "conflicting_resolved_variant_classes": 0,
+        "failure_only_cross_variant_consensus": 0,
+        "midpoint_only_veto": 0,
+        "conventional_class_unresolved": 16,
+        "midpoint_structural_zero": 0
+      },
+      "primary": {
+        "stochastic_uncertainty": 306,
+        "source_coverage": 8
+      }
+    },
+    {
+      "population": "Member States",
+      "period": "2010-2022",
+      "metric": "turning",
+      "unresolved": 295,
+      "flags": {
+        "missing_required_coverage": 9,
+        "fewer_than_required_applicable_variants": 0,
+        "any_applicable_stochastic_unresolved": 295,
+        "estimable_stochastic_unresolved": 286,
+        "deterministic_midpoint_unresolved": 17,
+        "estimable_midpoint_unresolved": 8,
+        "conflicting_resolved_variant_classes": 0,
+        "failure_only_cross_variant_consensus": 0,
+        "midpoint_only_veto": 0,
+        "conventional_class_unresolved": 28,
+        "midpoint_structural_zero": 0
+      },
+      "primary": {
+        "stochastic_uncertainty": 286,
+        "source_coverage": 9
+      }
+    },
+    {
+      "population": "Member States",
+      "period": "2010-2022",
+      "metric": "acceleration",
+      "unresolved": 296,
+      "flags": {
+        "missing_required_coverage": 9,
+        "fewer_than_required_applicable_variants": 0,
+        "any_applicable_stochastic_unresolved": 296,
+        "estimable_stochastic_unresolved": 287,
+        "deterministic_midpoint_unresolved": 170,
+        "estimable_midpoint_unresolved": 161,
+        "conflicting_resolved_variant_classes": 1,
+        "failure_only_cross_variant_consensus": 0,
+        "midpoint_only_veto": 0,
+        "conventional_class_unresolved": 14,
+        "midpoint_structural_zero": 158
+      },
+      "primary": {
+        "stochastic_uncertainty": 287,
+        "source_coverage": 9
+      }
+    },
+    {
+      "population": "Member States",
+      "period": "2023-2024 endpoints",
+      "metric": "annual_change",
+      "unresolved": 54,
+      "flags": {
+        "missing_required_coverage": 54,
+        "fewer_than_required_applicable_variants": 0,
+        "any_applicable_stochastic_unresolved": 54,
+        "estimable_stochastic_unresolved": 0,
+        "deterministic_midpoint_unresolved": 54,
+        "estimable_midpoint_unresolved": 0,
+        "conflicting_resolved_variant_classes": 0,
+        "failure_only_cross_variant_consensus": 0,
+        "midpoint_only_veto": 0,
+        "conventional_class_unresolved": 5,
+        "midpoint_structural_zero": 0
+      },
+      "primary": {
+        "source_coverage": 54
+      }
+    },
+    {
+      "population": "Member States",
+      "period": "2023-2024 endpoints",
+      "metric": "turning",
+      "unresolved": 54,
+      "flags": {
+        "missing_required_coverage": 54,
+        "fewer_than_required_applicable_variants": 0,
+        "any_applicable_stochastic_unresolved": 54,
+        "estimable_stochastic_unresolved": 0,
+        "deterministic_midpoint_unresolved": 54,
+        "estimable_midpoint_unresolved": 0,
+        "conflicting_resolved_variant_classes": 0,
+        "failure_only_cross_variant_consensus": 0,
+        "midpoint_only_veto": 0,
+        "conventional_class_unresolved": 7,
+        "midpoint_structural_zero": 0
+      },
+      "primary": {
+        "source_coverage": 54
+      }
+    },
+    {
+      "population": "Member States",
+      "period": "2023-2024 endpoints",
+      "metric": "acceleration",
+      "unresolved": 54,
+      "flags": {
+        "missing_required_coverage": 54,
+        "fewer_than_required_applicable_variants": 0,
+        "any_applicable_stochastic_unresolved": 54,
+        "estimable_stochastic_unresolved": 0,
+        "deterministic_midpoint_unresolved": 54,
+        "estimable_midpoint_unresolved": 0,
+        "conflicting_resolved_variant_classes": 0,
+        "failure_only_cross_variant_consensus": 0,
+        "midpoint_only_veto": 0,
+        "conventional_class_unresolved": 2,
+        "midpoint_structural_zero": 0
+      },
+      "primary": {
+        "source_coverage": 54
+      }
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2010-2022",
+      "metric": "annual_change",
+      "unresolved": 12,
+      "flags": {
+        "missing_required_coverage": 0,
+        "fewer_than_required_applicable_variants": 0,
+        "any_applicable_stochastic_unresolved": 12,
+        "estimable_stochastic_unresolved": 12,
+        "deterministic_midpoint_unresolved": 0,
+        "estimable_midpoint_unresolved": 0,
+        "conflicting_resolved_variant_classes": 0,
+        "failure_only_cross_variant_consensus": 0,
+        "midpoint_only_veto": 0,
+        "conventional_class_unresolved": 0,
+        "midpoint_structural_zero": 0
+      },
+      "primary": {
+        "stochastic_uncertainty": 12
+      }
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2010-2022",
+      "metric": "turning",
+      "unresolved": 11,
+      "flags": {
+        "missing_required_coverage": 0,
+        "fewer_than_required_applicable_variants": 0,
+        "any_applicable_stochastic_unresolved": 11,
+        "estimable_stochastic_unresolved": 11,
+        "deterministic_midpoint_unresolved": 0,
+        "estimable_midpoint_unresolved": 0,
+        "conflicting_resolved_variant_classes": 0,
+        "failure_only_cross_variant_consensus": 0,
+        "midpoint_only_veto": 0,
+        "conventional_class_unresolved": 0,
+        "midpoint_structural_zero": 0
+      },
+      "primary": {
+        "stochastic_uncertainty": 11
+      }
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2010-2022",
+      "metric": "acceleration",
+      "unresolved": 11,
+      "flags": {
+        "missing_required_coverage": 0,
+        "fewer_than_required_applicable_variants": 0,
+        "any_applicable_stochastic_unresolved": 11,
+        "estimable_stochastic_unresolved": 11,
+        "deterministic_midpoint_unresolved": 6,
+        "estimable_midpoint_unresolved": 6,
+        "conflicting_resolved_variant_classes": 0,
+        "failure_only_cross_variant_consensus": 0,
+        "midpoint_only_veto": 0,
+        "conventional_class_unresolved": 1,
+        "midpoint_structural_zero": 6
+      },
+      "primary": {
+        "stochastic_uncertainty": 11
+      }
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2023-2024 endpoints",
+      "metric": "annual_change",
+      "unresolved": 2,
+      "flags": {
+        "missing_required_coverage": 2,
+        "fewer_than_required_applicable_variants": 0,
+        "any_applicable_stochastic_unresolved": 2,
+        "estimable_stochastic_unresolved": 0,
+        "deterministic_midpoint_unresolved": 2,
+        "estimable_midpoint_unresolved": 0,
+        "conflicting_resolved_variant_classes": 0,
+        "failure_only_cross_variant_consensus": 0,
+        "midpoint_only_veto": 0,
+        "conventional_class_unresolved": 0,
+        "midpoint_structural_zero": 0
+      },
+      "primary": {
+        "source_coverage": 2
+      }
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2023-2024 endpoints",
+      "metric": "turning",
+      "unresolved": 2,
+      "flags": {
+        "missing_required_coverage": 2,
+        "fewer_than_required_applicable_variants": 0,
+        "any_applicable_stochastic_unresolved": 2,
+        "estimable_stochastic_unresolved": 0,
+        "deterministic_midpoint_unresolved": 2,
+        "estimable_midpoint_unresolved": 0,
+        "conflicting_resolved_variant_classes": 0,
+        "failure_only_cross_variant_consensus": 0,
+        "midpoint_only_veto": 0,
+        "conventional_class_unresolved": 0,
+        "midpoint_structural_zero": 0
+      },
+      "primary": {
+        "source_coverage": 2
+      }
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2023-2024 endpoints",
+      "metric": "acceleration",
+      "unresolved": 2,
+      "flags": {
+        "missing_required_coverage": 2,
+        "fewer_than_required_applicable_variants": 0,
+        "any_applicable_stochastic_unresolved": 2,
+        "estimable_stochastic_unresolved": 0,
+        "deterministic_midpoint_unresolved": 2,
+        "estimable_midpoint_unresolved": 0,
+        "conflicting_resolved_variant_classes": 0,
+        "failure_only_cross_variant_consensus": 0,
+        "midpoint_only_veto": 0,
+        "conventional_class_unresolved": 0,
+        "midpoint_structural_zero": 0
+      },
+      "primary": {
+        "source_coverage": 2
+      }
+    }
+  ],
+  "influence": [
+    {
+      "population": "Member States",
+      "period": "2010-2022",
+      "metric": "annual_change",
+      "diagnostic": "EXPLORATORY_midpoint_structural_reference",
+      "AGREEMENT": 10,
+      "CHANGE": 0,
+      "UNRESOLVED": 314,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "Member States",
+      "period": "2010-2022",
+      "metric": "annual_change",
+      "diagnostic": "LOO_country_signed",
+      "AGREEMENT": 20,
+      "CHANGE": 0,
+      "UNRESOLVED": 304,
+      "source_aware_changed": 10,
+      "comparison_changed": 10,
+      "newly_source_aware_resolved": 10,
+      "newly_comparison_resolved": 10
+    },
+    {
+      "population": "Member States",
+      "period": "2010-2022",
+      "metric": "annual_change",
+      "diagnostic": "LOO_deterministic_midpoint",
+      "AGREEMENT": 10,
+      "CHANGE": 0,
+      "UNRESOLVED": 314,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "Member States",
+      "period": "2010-2022",
+      "metric": "annual_change",
+      "diagnostic": "LOO_pooled_absolute_random_sign",
+      "AGREEMENT": 10,
+      "CHANGE": 0,
+      "UNRESOLVED": 314,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "Member States",
+      "period": "2010-2022",
+      "metric": "annual_change",
+      "diagnostic": "LOO_pooled_signed",
+      "AGREEMENT": 10,
+      "CHANGE": 0,
+      "UNRESOLVED": 314,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "Member States",
+      "period": "2010-2022",
+      "metric": "turning",
+      "diagnostic": "EXPLORATORY_midpoint_structural_reference",
+      "AGREEMENT": 2,
+      "CHANGE": 0,
+      "UNRESOLVED": 295,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "Member States",
+      "period": "2010-2022",
+      "metric": "turning",
+      "diagnostic": "LOO_country_signed",
+      "AGREEMENT": 12,
+      "CHANGE": 0,
+      "UNRESOLVED": 285,
+      "source_aware_changed": 10,
+      "comparison_changed": 10,
+      "newly_source_aware_resolved": 10,
+      "newly_comparison_resolved": 10
+    },
+    {
+      "population": "Member States",
+      "period": "2010-2022",
+      "metric": "turning",
+      "diagnostic": "LOO_deterministic_midpoint",
+      "AGREEMENT": 2,
+      "CHANGE": 0,
+      "UNRESOLVED": 295,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "Member States",
+      "period": "2010-2022",
+      "metric": "turning",
+      "diagnostic": "LOO_pooled_absolute_random_sign",
+      "AGREEMENT": 2,
+      "CHANGE": 0,
+      "UNRESOLVED": 295,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "Member States",
+      "period": "2010-2022",
+      "metric": "turning",
+      "diagnostic": "LOO_pooled_signed",
+      "AGREEMENT": 2,
+      "CHANGE": 0,
+      "UNRESOLVED": 295,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "Member States",
+      "period": "2010-2022",
+      "metric": "acceleration",
+      "diagnostic": "EXPLORATORY_midpoint_structural_reference",
+      "AGREEMENT": 1,
+      "CHANGE": 0,
+      "UNRESOLVED": 296,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "Member States",
+      "period": "2010-2022",
+      "metric": "acceleration",
+      "diagnostic": "LOO_country_signed",
+      "AGREEMENT": 5,
+      "CHANGE": 0,
+      "UNRESOLVED": 292,
+      "source_aware_changed": 4,
+      "comparison_changed": 4,
+      "newly_source_aware_resolved": 4,
+      "newly_comparison_resolved": 4
+    },
+    {
+      "population": "Member States",
+      "period": "2010-2022",
+      "metric": "acceleration",
+      "diagnostic": "LOO_deterministic_midpoint",
+      "AGREEMENT": 1,
+      "CHANGE": 0,
+      "UNRESOLVED": 296,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "Member States",
+      "period": "2010-2022",
+      "metric": "acceleration",
+      "diagnostic": "LOO_pooled_absolute_random_sign",
+      "AGREEMENT": 1,
+      "CHANGE": 0,
+      "UNRESOLVED": 296,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "Member States",
+      "period": "2010-2022",
+      "metric": "acceleration",
+      "diagnostic": "LOO_pooled_signed",
+      "AGREEMENT": 1,
+      "CHANGE": 0,
+      "UNRESOLVED": 296,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "Member States",
+      "period": "2023-2024 endpoints",
+      "metric": "annual_change",
+      "diagnostic": "EXPLORATORY_midpoint_structural_reference",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 54,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "Member States",
+      "period": "2023-2024 endpoints",
+      "metric": "annual_change",
+      "diagnostic": "LOO_country_signed",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 54,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "Member States",
+      "period": "2023-2024 endpoints",
+      "metric": "annual_change",
+      "diagnostic": "LOO_deterministic_midpoint",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 54,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "Member States",
+      "period": "2023-2024 endpoints",
+      "metric": "annual_change",
+      "diagnostic": "LOO_pooled_absolute_random_sign",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 54,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "Member States",
+      "period": "2023-2024 endpoints",
+      "metric": "annual_change",
+      "diagnostic": "LOO_pooled_signed",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 54,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "Member States",
+      "period": "2023-2024 endpoints",
+      "metric": "turning",
+      "diagnostic": "EXPLORATORY_midpoint_structural_reference",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 54,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "Member States",
+      "period": "2023-2024 endpoints",
+      "metric": "turning",
+      "diagnostic": "LOO_country_signed",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 54,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "Member States",
+      "period": "2023-2024 endpoints",
+      "metric": "turning",
+      "diagnostic": "LOO_deterministic_midpoint",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 54,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "Member States",
+      "period": "2023-2024 endpoints",
+      "metric": "turning",
+      "diagnostic": "LOO_pooled_absolute_random_sign",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 54,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "Member States",
+      "period": "2023-2024 endpoints",
+      "metric": "turning",
+      "diagnostic": "LOO_pooled_signed",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 54,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "Member States",
+      "period": "2023-2024 endpoints",
+      "metric": "acceleration",
+      "diagnostic": "EXPLORATORY_midpoint_structural_reference",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 54,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "Member States",
+      "period": "2023-2024 endpoints",
+      "metric": "acceleration",
+      "diagnostic": "LOO_country_signed",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 54,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "Member States",
+      "period": "2023-2024 endpoints",
+      "metric": "acceleration",
+      "diagnostic": "LOO_deterministic_midpoint",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 54,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "Member States",
+      "period": "2023-2024 endpoints",
+      "metric": "acceleration",
+      "diagnostic": "LOO_pooled_absolute_random_sign",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 54,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "Member States",
+      "period": "2023-2024 endpoints",
+      "metric": "acceleration",
+      "diagnostic": "LOO_pooled_signed",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 54,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2010-2022",
+      "metric": "annual_change",
+      "diagnostic": "EXPLORATORY_midpoint_structural_reference",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 12,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2010-2022",
+      "metric": "annual_change",
+      "diagnostic": "LOO_country_signed",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 12,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2010-2022",
+      "metric": "annual_change",
+      "diagnostic": "LOO_deterministic_midpoint",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 12,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2010-2022",
+      "metric": "annual_change",
+      "diagnostic": "LOO_pooled_absolute_random_sign",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 12,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2010-2022",
+      "metric": "annual_change",
+      "diagnostic": "LOO_pooled_signed",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 12,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2010-2022",
+      "metric": "turning",
+      "diagnostic": "EXPLORATORY_midpoint_structural_reference",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 11,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2010-2022",
+      "metric": "turning",
+      "diagnostic": "LOO_country_signed",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 11,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2010-2022",
+      "metric": "turning",
+      "diagnostic": "LOO_deterministic_midpoint",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 11,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2010-2022",
+      "metric": "turning",
+      "diagnostic": "LOO_pooled_absolute_random_sign",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 11,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2010-2022",
+      "metric": "turning",
+      "diagnostic": "LOO_pooled_signed",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 11,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2010-2022",
+      "metric": "acceleration",
+      "diagnostic": "EXPLORATORY_midpoint_structural_reference",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 11,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2010-2022",
+      "metric": "acceleration",
+      "diagnostic": "LOO_country_signed",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 11,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2010-2022",
+      "metric": "acceleration",
+      "diagnostic": "LOO_deterministic_midpoint",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 11,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2010-2022",
+      "metric": "acceleration",
+      "diagnostic": "LOO_pooled_absolute_random_sign",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 11,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2010-2022",
+      "metric": "acceleration",
+      "diagnostic": "LOO_pooled_signed",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 11,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2023-2024 endpoints",
+      "metric": "annual_change",
+      "diagnostic": "EXPLORATORY_midpoint_structural_reference",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 2,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2023-2024 endpoints",
+      "metric": "annual_change",
+      "diagnostic": "LOO_country_signed",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 2,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2023-2024 endpoints",
+      "metric": "annual_change",
+      "diagnostic": "LOO_deterministic_midpoint",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 2,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2023-2024 endpoints",
+      "metric": "annual_change",
+      "diagnostic": "LOO_pooled_absolute_random_sign",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 2,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2023-2024 endpoints",
+      "metric": "annual_change",
+      "diagnostic": "LOO_pooled_signed",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 2,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2023-2024 endpoints",
+      "metric": "turning",
+      "diagnostic": "EXPLORATORY_midpoint_structural_reference",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 2,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2023-2024 endpoints",
+      "metric": "turning",
+      "diagnostic": "LOO_country_signed",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 2,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2023-2024 endpoints",
+      "metric": "turning",
+      "diagnostic": "LOO_deterministic_midpoint",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 2,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2023-2024 endpoints",
+      "metric": "turning",
+      "diagnostic": "LOO_pooled_absolute_random_sign",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 2,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2023-2024 endpoints",
+      "metric": "turning",
+      "diagnostic": "LOO_pooled_signed",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 2,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2023-2024 endpoints",
+      "metric": "acceleration",
+      "diagnostic": "EXPLORATORY_midpoint_structural_reference",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 2,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2023-2024 endpoints",
+      "metric": "acceleration",
+      "diagnostic": "LOO_country_signed",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 2,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2023-2024 endpoints",
+      "metric": "acceleration",
+      "diagnostic": "LOO_deterministic_midpoint",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 2,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2023-2024 endpoints",
+      "metric": "acceleration",
+      "diagnostic": "LOO_pooled_absolute_random_sign",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 2,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    },
+    {
+      "population": "EU27_2020",
+      "period": "2023-2024 endpoints",
+      "metric": "acceleration",
+      "diagnostic": "LOO_pooled_signed",
+      "AGREEMENT": 0,
+      "CHANGE": 0,
+      "UNRESOLVED": 2,
+      "source_aware_changed": 0,
+      "comparison_changed": 0,
+      "newly_source_aware_resolved": 0,
+      "newly_comparison_resolved": 0
+    }
+  ],
+  "precision": {
+    "A_current_unresolved": 8,
+    "B1_current_unresolved": 12,
+    "median_A_CI_width": 0.3386343034703439,
+    "median_B1_CI_width": 0.6219034525860043,
+    "median_paired_B1_A_CI_width_ratio": 1.8579098335720954,
+    "B1_wider_count": 27
+  }
+}
