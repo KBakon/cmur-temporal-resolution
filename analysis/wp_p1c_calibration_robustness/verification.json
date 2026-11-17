@@ -1,0 +1,40 @@
+{
+  "baseline_pass": true,
+  "existing_suites": [
+    {
+      "command": "python -B scripts/verify_wp1a.py",
+      "returncode": 0,
+      "stdout": "{\n  \"panel_rows\": 420,\n  \"raw_waste_cells\": 196,\n  \"admissible_anchors\": 193,\n  \"reconstruction_cells\": 196,\n  \"pooled_pseudogap_count\": 130,\n  \"absolute_gap_pp_max\": 2.736848722328194,\n  \"absolute_gap_pp_median\": 0.28749333253830933,\n  \"gap_over_0_05_pp\": 181,\n  \"precision_inconsistent_cells\": 180,\n  \"flagged_waste_cells\": [\n    [\n      \"CZ\",\n      2018,\n      \"b\"\n    ],\n    [\n      \"EL\",\n      2020,\n      \"p\"\n    ],\n    [\n      \"EL\",\n      2022,\n      \"p\"\n    ]\n  ]\n}\nPASS 44 checks []\n",
+      "stderr": ""
+    },
+    {
+      "command": "python -B scripts/verify_wp1b_r.py",
+      "returncode": 0,
+      "stdout": "PASS 30 post-analysis checks []\n",
+      "stderr": ""
+    }
+  ],
+  "baseline_regenerated_csv_bytes_identical": true,
+  "seed": 20260926,
+  "trajectories": 20000,
+  "serialized_row_counts": {
+    "variant_support": 7616,
+    "claim_support": 1904,
+    "threshold_claims": 13328,
+    "scenario_pairs": 952
+  },
+  "all_threshold_classes_independently_verified": true,
+  "all_survival_counts_reconcile": true,
+  "scenario_changes_reconcile": true,
+  "paired_draw_hashes_independently_replayed": true,
+  "B_sign_support_independently_recomputed": true,
+  "multispan_admissibility_and_residuals_verified": true,
+  "continuous_distribution_statistics_verified": true,
+  "all_prior_P1A_headline_aggregates_reproduced": true,
+  "turning_constituents_match_annual_support_rows": true,
+  "conditional_support_and_conflicts_verified": true,
+  "original_files_checked": 49,
+  "original_files_changed": 0,
+  "scenario_U_production_sha256": "1ac67330893de4766c3dd4c2bfff1fe522bb18f33d7ff9d1fb9307fa2f6ef7f1",
+  "pass_all": true
+}

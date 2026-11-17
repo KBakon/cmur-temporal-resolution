@@ -119,6 +119,8 @@ def gate():
     checks = {}
     wp1a = json.loads((ROOT/"logs"/"verification_report.json").read_text(encoding="utf-8"))
     manifest = json.loads((ROOT/"logs"/"acquisition_manifest.json").read_text(encoding="utf-8"))
+    from build_wp1a import release_source_records
+    manifest = release_source_records(manifest)
     checks["wp1a_frozen_panel_and_anchor_hashes"] = wp1a.get("status")=="PASS" and all(
         hashlib.sha256((OUT/name).read_bytes()).hexdigest()==wp1a["processed_sha256"][name]
         for name in ("cmur_source_provenance_panel.csv","verified_anchor_map.csv"))

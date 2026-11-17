@@ -15,8 +15,31 @@ OUT = ROOT / "data" / "processed"
 META = ROOT / "data" / "metadata"
 
 
+def release_source_records(manifest):
+    """Select deposited sources using the public rights/provenance catalog.
+
+    Ancillary HTML pages are referenced, not distributed or used in calculations.
+    Statistical snapshots and structural metadata remain mandatory hash-checked inputs.
+    """
+    with (ROOT / "provenance" / "SOURCE_CATALOG.csv").open(newline="", encoding="utf-8") as f:
+        catalog = {r["name"]: r for r in csv.DictReader(f)}
+    required = set(SLICES) | {name + "_dsd" for name in SLICES}
+    included = []
+    for rec in manifest:
+        row = catalog[rec["name"]]
+        assert row["original_project_path"] == rec["path"] and row["local_sha256"] == rec["sha256"]
+        if row["included_in_deposit"] == "True":
+            included.append(rec)
+        else:
+            assert (rec["name"].endswith("_esms") and rec["path"].endswith(".html")) or (
+                rec["name"] == "cmur_calculation_method_2018" and rec["path"].endswith(".pdf")), rec["name"]
+    assert {r["name"] for r in included} == required and len(included) == len(required)
+    return included
+
+
 def read_sources():
     manifest = json.loads((ROOT / "logs" / "acquisition_manifest.json").read_text(encoding="utf-8"))
+    manifest = release_source_records(manifest)
     sources = {}
     for rec in manifest:
         path = ROOT / rec["path"]

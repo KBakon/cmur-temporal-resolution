@@ -1,0 +1,23 @@
+{
+  "checks": [
+    {
+      "command": "python -B scripts/verify_wp1a.py",
+      "execution": "isolated temporary repository copy",
+      "returncode": 0,
+      "stdout": "{\n  \"panel_rows\": 420,\n  \"raw_waste_cells\": 196,\n  \"admissible_anchors\": 193,\n  \"reconstruction_cells\": 196,\n  \"pooled_pseudogap_count\": 130,\n  \"absolute_gap_pp_max\": 2.736848722328194,\n  \"absolute_gap_pp_median\": 0.28749333253830933,\n  \"gap_over_0_05_pp\": 181,\n  \"precision_inconsistent_cells\": 180,\n  \"flagged_waste_cells\": [\n    [\n      \"CZ\",\n      2018,\n      \"b\"\n    ],\n    [\n      \"EL\",\n      2020,\n      \"p\"\n    ],\n    [\n      \"EL\",\n      2022,\n      \"p\"\n    ]\n  ]\n}\nPASS 44 checks []\n",
+      "stderr": ""
+    },
+    {
+      "command": "python -B scripts/verify_wp1b_r.py",
+      "execution": "isolated temporary repository copy",
+      "returncode": 0,
+      "stdout": "PASS 30 post-analysis checks []\n",
+      "stderr": ""
+    }
+  ],
+  "baseline_pass": true,
+  "all_regenerated_processed_outputs_byte_identical": true,
+  "all_original_files_unchanged_after_baseline": true,
+  "seed": 20260926,
+  "draws": 20000
+}

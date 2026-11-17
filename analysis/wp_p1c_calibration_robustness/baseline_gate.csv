@@ -1,0 +1,17 @@
+check,population,observed,expected,passed
+production_medium_term_slope,Member States,15/0/12,15/0/12,True
+production_medium_term_slope,EU27_2020,1/0/0,1/0/0,True
+production_annual_change,Member States,10/0/314,10/0/314,True
+production_annual_change,EU27_2020,0/0/12,0/0/12,True
+production_turning,Member States,2/0/295,2/0/295,True
+production_turning,EU27_2020,0/0/11,0/0/11,True
+production_acceleration,Member States,1/0/296,1/0/296,True
+production_acceleration,EU27_2020,0/0/11,0/0/11,True
+COMMON_TWO_SIDED_95,Member States,12/0/15,12/0/15,True
+COMMON_TWO_SIDED_95,EU27_2020,1/0/0,1/0/0,True
+COMMON_DIRECTIONAL_95,Member States,15/0/12,15/0/12,True
+COMMON_DIRECTIONAL_95,EU27_2020,1/0/0,1/0/0,True
+LOO_deterministic_midpoint_new_acceleration_resolutions,Member States,0,0,True
+LOO_deterministic_midpoint_new_acceleration_resolutions,EU27_2020,0,0,True
+EXPLORATORY_midpoint_structural_reference_new_acceleration_resolutions,Member States,0,0,True
+EXPLORATORY_midpoint_structural_reference_new_acceleration_resolutions,EU27_2020,0,0,True

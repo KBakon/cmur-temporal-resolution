@@ -35,6 +35,19 @@
     }
   },
   {
+    "name": "env_ac_cur_esms",
+    "url": "https://ec.europa.eu/eurostat/cache/metadata/en/env_ac_cur_esms.htm",
+    "retrieved_utc": "2026-09-26T06:55:49.937025+00:00",
+    "sha256": "0cb74add8e78dbac4c61b5d9d18a37d4113154bd6721f0690cabef6a4912954e",
+    "bytes": 188507,
+    "path": "data/metadata/env_ac_cur_esms_0cb74add8e78dbac.html",
+    "http_headers": {
+      "Last-Modified": "Thu, 24 Sep 2026 15:45:21 GMT",
+      "ETag": "\"2e05b-65c3c7cc83ef4\"",
+      "Content-Type": "text/html"
+    }
+  },
+  {
     "name": "env_wastrt",
     "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/env_wastrt?lang=EN&sinceTimePeriod=2010&untilTimePeriod=2024&geo=AT&geo=BE&geo=BG&geo=HR&geo=CY&geo=CZ&geo=DK&geo=EE&geo=FI&geo=FR&geo=DE&geo=EL&geo=HU&geo=IE&geo=IT&geo=LV&geo=LT&geo=LU&geo=MT&geo=NL&geo=PL&geo=PT&geo=RO&geo=SK&geo=SI&geo=ES&geo=SE&geo=EU27_2020&freq=A&unit=T&hazard=HAZ_NHAZ&wst_oper=RCV_R&waste=TOTAL",
     "retrieved_utc": "2026-09-26T06:55:50.088234+00:00",
@@ -73,6 +86,19 @@
     "path": "data/metadata/env_wastrt_dsd_36e5537d2deee572.xml",
     "http_headers": {
       "Content-Type": "application/vnd.sdmx.structure+xml;version=2.1"
+    }
+  },
+  {
+    "name": "env_wastrt_esms",
+    "url": "https://ec.europa.eu/eurostat/cache/metadata/en/env_wasgt_esms.htm",
+    "retrieved_utc": "2026-09-26T06:55:51.172438+00:00",
+    "sha256": "346b579d0ab5db57617516670b987f64329c02ac53572daa322867595928ca1a",
+    "bytes": 202057,
+    "path": "data/metadata/env_wastrt_esms_346b579d0ab5db57.html",
+    "http_headers": {
+      "Last-Modified": "Thu, 24 Sep 2026 16:30:12 GMT",
+      "ETag": "\"31549-65c3d1d27ec17\"",
+      "Content-Type": "text/html"
     }
   },
   {
@@ -115,6 +141,19 @@
     }
   },
   {
+    "name": "env_ac_mfa_esms",
+    "url": "https://ec.europa.eu/eurostat/cache/metadata/en/env_ac_mfa_sims.htm",
+    "retrieved_utc": "2026-09-26T06:55:52.412143+00:00",
+    "sha256": "21f820fda7943bdcb7fd2d6cdad36eeea7f1482d59f40d4dc8ab67ce46f9cc90",
+    "bytes": 232222,
+    "path": "data/metadata/env_ac_mfa_esms_21f820fda7943bdc.html",
+    "http_headers": {
+      "Last-Modified": "Fri, 25 Sep 2026 07:15:05 GMT",
+      "ETag": "\"38b1e-65c4979c00549\"",
+      "Content-Type": "text/html"
+    }
+  },
+  {
     "name": "env_ac_sd",
     "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/env_ac_sd?lang=EN&sinceTimePeriod=2010&untilTimePeriod=2024&geo=AT&geo=BE&geo=BG&geo=HR&geo=CY&geo=CZ&geo=DK&geo=EE&geo=FI&geo=FR&geo=DE&geo=EL&geo=HU&geo=IE&geo=IT&geo=LV&geo=LT&geo=LU&geo=MT&geo=NL&geo=PL&geo=PT&geo=RO&geo=SK&geo=SI&geo=ES&geo=SE&geo=EU27_2020&freq=A&indic_env=IMP_RCV_R&indic_env=EXP_RCV_R&material=TOTAL&unit=THS_T",
     "retrieved_utc": "2026-09-26T06:55:52.561195+00:00",
@@ -151,6 +190,31 @@
     "path": "data/metadata/env_ac_sd_dsd_51931eb44075804f.xml",
     "http_headers": {
       "Content-Type": "application/vnd.sdmx.structure+xml;version=2.1"
+    }
+  },
+  {
+    "name": "env_ac_sd_esms",
+    "url": "https://ec.europa.eu/eurostat/cache/metadata/en/env_ac_sd_esms.htm",
+    "retrieved_utc": "2026-09-26T06:55:53.653267+00:00",
+    "sha256": "606643e6df5ffc9682faf703c0a0c8dc5e07e0a0c99f09ea58182571486cd132",
+    "bytes": 185794,
+    "path": "data/metadata/env_ac_sd_esms_606643e6df5ffc96.html",
+    "http_headers": {
+      "Last-Modified": "Thu, 24 Sep 2026 15:45:22 GMT",
+      "ETag": "\"2d5c2-65c3c7cdc0158\"",
+      "Content-Type": "text/html"
+    }
+  },
+  {
+    "name": "cmur_calculation_method_2018",
+    "url": "https://ec.europa.eu/eurostat/documents/3859598/9407565/KS-FT-18-009-EN-N.pdf",
+    "retrieved_utc": "2026-09-26T06:55:55.257640+00:00",
+    "sha256": "d6c5faaa0ec3a24d720d8c8dd3783039bc9cac19c4ada0fff77e6d4765633d13",
+    "bytes": 6398278,
+    "path": "data/metadata/cmur_calculation_method_2018_d6c5faaa0ec3a24d.pdf",
+    "http_headers": {
+      "Last-Modified": "Tue, 27 Nov 2018 09:13:59 GMT",
+      "Content-Type": "application/pdf"
     }
   }
 ]

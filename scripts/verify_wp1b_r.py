@@ -48,6 +48,15 @@ def hashes():
 
 
 def main():
+    # A source archive contains frozen scientific outputs, not private run logs.
+    # Recreate the prerequisite gate report through the unchanged analysis and
+    # require byte identity before checking it; never fabricate historical status.
+    if not (ROOT / "logs" / "wp1b_r_verification.json").exists():
+        before = hashes()
+        result = subprocess.run([sys.executable, "-B", str(ROOT / "scripts" / "wp1b_r.py"), "--analyze"],
+                                cwd=ROOT, capture_output=True, text=True)
+        assert result.returncode == 0, result.stderr
+        assert before == hashes(), "Prerequisite verification changed frozen scientific outputs."
     failures, checks = [], {}
     def test(name, condition):
         checks[name] = bool(condition)
